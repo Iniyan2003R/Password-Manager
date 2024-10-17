@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/contactSupportButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Support"
+        android:background="#6200ED"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Support Contact Info -->
+    <TextView
+        android:id="@+id/supportInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For support, contact us at support@example.com"
+        android:textColor="@android:color/holo_blue_dark"
+        android:visibility="gone"
+        android:paddingTop="8dp"/>
+
+    <Button
+        android:id="@+id/viewFAQsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View FAQs"
+        android:background="#6200ED"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"/>
+
+    <!-- FAQ Questions -->
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is a password manager?"
+        android:textColor="@android:color/holo_blue_dark"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackground"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A password manager is a software application that helps users store and manage their passwords securely."
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How do I reset my password?"
+        android:textColor="@android:color/holo_blue_dark"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackground"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To reset your password, go to the settings and select 'Reset Password'."
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Can I share my passwords?"
+        android:textColor="@android:color/holo_blue_dark"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackground"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yes, you can share passwords securely using the sharing feature in the app."
+        android:visibility="gone"/>
+
+</LinearLayout>

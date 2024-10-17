@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/savedPasswordsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saved Passwords"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Replace with your fingerprint drawable -->
+
+
+
+    <Button
+        android:id="@+id/securityTipsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Security Tips"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:layout_marginTop="16dp"/>
+    <ImageButton
+        android:id="@+id/fingerprintButton"
+        android:layout_width="73dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="s"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fingerprint" />
+</LinearLayout>
